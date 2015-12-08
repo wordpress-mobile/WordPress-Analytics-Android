@@ -215,8 +215,14 @@ public class AnalyticsTrackerNosara implements AnalyticsTracker.Tracker {
             case OPENED_MEDIA_LIBRARY:
                 eventName = "site_menu_opened_media_library";
                 break;
-            case OPENED_SETTINGS:
-                eventName = "site_menu_opened_settings";
+            case OPENED_SITE_SETTINGS:
+                eventName = "site_menu_opened_site_settings";
+                break;
+            case OPENED_MY_PROFILE:
+                eventName = "me_opened_my_profile";
+                break;
+            case OPENED_ACCOUNT_SETTINGS:
+                eventName = "me_opened_account_settings";
                 break;
             case CREATED_ACCOUNT:
                 eventName = "created_account";
