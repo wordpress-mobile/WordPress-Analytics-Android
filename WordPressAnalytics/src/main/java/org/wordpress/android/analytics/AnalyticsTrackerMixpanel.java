@@ -522,9 +522,17 @@ public class AnalyticsTrackerMixpanel implements AnalyticsTracker.Tracker {
                 instructions = AnalyticsTrackerMixpanelInstructionsForStat.
                         mixpanelInstructionsForEventName("Site Menu - Opened Media Library");
                 break;
-            case OPENED_SETTINGS:
+            case OPENED_SITE_SETTINGS:
                 instructions = AnalyticsTrackerMixpanelInstructionsForStat.
-                        mixpanelInstructionsForEventName("Site Menu - Opened Settings");
+                        mixpanelInstructionsForEventName("Site Menu - Opened Site Settings");
+                break;
+            case OPENED_MY_PROFILE:
+                instructions = AnalyticsTrackerMixpanelInstructionsForStat.
+                        mixpanelInstructionsForEventName("Me - Opened My Profile");
+                break;
+            case OPENED_ACCOUNT_SETTINGS:
+                instructions = AnalyticsTrackerMixpanelInstructionsForStat.
+                        mixpanelInstructionsForEventName("Me - Opened Account Settings");
                 break;
             case CREATED_ACCOUNT:
                 instructions = AnalyticsTrackerMixpanelInstructionsForStat.
