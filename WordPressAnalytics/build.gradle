@@ -41,7 +41,7 @@ publish {
     uploadName = 'analytics'
     description = 'Analytics library for WordPress for Android'
     publishVersion = android.defaultConfig.versionName
-    licences = ['MIT', 'GPL-2.0']
+    licences = ['GPL-2.0']
     website = 'https://github.com/wordpress-mobile/WordPress-Analytics-Android'
     dryRun = 'false'
     autoPublish = 'true'
